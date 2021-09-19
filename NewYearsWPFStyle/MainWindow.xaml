@@ -1,0 +1,14 @@
+﻿<Window x:Class="NewYearsWPFStyle.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:NewYearsWPFStyle"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800" Loaded="Window_Loaded">
+    <Grid>
+        <ProgressBar HorizontalAlignment="Left" Height="58" Margin="123,71,0,0" VerticalAlignment="Top" Width="634" Maximum="365" Value="207" ValueChanged="ProgressBar_ValueChanged" Foreground="#FFA805E6"/>
+        <Button Content="Button" HorizontalAlignment="Left" Height="75" Margin="291,227,0,0" VerticalAlignment="Top" Width="160" Click="Button_Click"/>
+ 
+    </Grid>
+</Window>
